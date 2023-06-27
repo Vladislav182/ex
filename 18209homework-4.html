@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css text formatting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <style media="screen" type="text/css">
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1em;
+        }
+
+        h1 {
+            font-family: 'Redressed', cursive;
+            color: aqua;
+            font-size: 2.5em;
+            text-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-align: center;
+
+
+        }
+
+        h3 {
+            font-size: 1.8em;
+            background-color: coral;
+            color: aqua;
+            word-spacing: 0.2em;
+            padding: 0.15em;
+            font-variant: small-caps;
+        }
+
+        h3 span {
+            background-color: orangered;
+            padding: 0.15em;
+        }
+
+        p,
+        blockquote {
+            text-align: justify;
+
+        }
+
+        p {
+            line-height: 2;
+            text-indent: 2em;
+
+        }
+
+        p strong {
+            font-weight: 900;
+            font-stretch: ultra-expanded;
+            color: grey;
+        }
+
+        a {
+            color: dodgerblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        blockquote {
+            font: italic bold 1.1em/1.5em Georgia, serif;
+            background-color: lightgray;
+            border-left: 10px solid aqua;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+        }
+
+        blockquote:before {
+            color: aqua;
+            content: open-quote;
+            font-size: 3em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+        }
+
+        blockquote p{
+            display: inline;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <h1>Page heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        <strong>magna aliqua</strong>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo
+        consequat. <a href="#">Duis aute irure dolor</a> in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+    <h3>Section <span>heading</span> one</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Erat pellentesque adipiscing commodo elit. Adipiscing elit duis tristique sollicitudin nibh sit
+        <strong>amet commodo nulla]</strong>. Tincidunt nunc pulvinar sapien et. Odio pellentesque diam volutpat commodo
+        sed. Venenatis a
+        condimentum vitae sapien pellentesque habitant morbi tristique. Neque laoreet suspendisse interdum consectetur
+        libero. Massa id neque aliquam vestibulum morbi blandit. Suspendisse ultrices gravida dictum fusce ut placerat
+        orci nulla pellentesque. Massa vitae tortor condimentum lacinia. Tellus molestie nunc non blandit massa. In hac
+        habitasse platea dictumst vestibulum rhoncus est.
+    </p>
+    <p>Mauris a diam maecenas <a href="#">sed enim ut sem viverra aliquet</a> . Quisque sagittis purus sit amet. Etiam
+        dignissim diam
+        quis enim lobortis scelerisque fermentum dui. Interdum velit euismod in pellentesque massa. Est lorem ipsum
+        dolor sit amet consectetur. Nunc mi ipsum faucibus vitae. Non quam lacus suspendisse faucibus interdum. Faucibus
+        pulvinar elementum integer enim neque volutpat ac tincidunt. Quam nulla porttitor massa id. Netus et malesuada
+        fames ac turpis egestas.</p>
+    <h3>Section <span>heading</span> two</h3>
+    <p>Vivamus arcu felis bibendum ut tristique. Velit aliquet sagittis id consectetur purus. Pellentesque eu tincidunt
+        tortor aliquam nulla. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Vel orci porta non
+        pulvinar neque laoreet suspendisse. Felis donec et odio pellentesque diam volutpat. Duis ut diam quam nulla
+        porttitor massa id neque aliquam. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Lorem mollis aliquam
+        ut porttitor leo. Vel eros donec ac odio tempor orci dapibus ultrices. </p>
+    <p>Nunc sed id semper risus in hendrerit gravida rutrum. Laoreet non curabitur gravida arcu ac tortor dignissim
+        convallis aenean. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Elementum eu facilisis
+        sed odio morbi quis commodo odio. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Viverra nam libero
+        justo laoreet sit amet cursus. Viverra mauris in aliquam sem. </p>
+    <blockquote>
+        <p>Ut enim blandit volutpat maecenas. Sed adipiscing diam donec adipiscing tristique risus nec. Nullam ac
+            tortor vitae purus faucibus ornare.</p>
+    </blockquote>
+
+</body>
+
+</html>
